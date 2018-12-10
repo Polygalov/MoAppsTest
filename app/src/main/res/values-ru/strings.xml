@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти через аккаунт Google</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="status_bar_notification_info_overflow">&gt;999</string>
+    <string name="action_sign_out">Сменить аккаунт</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4328537020911786/4265076557</string>
+    <string name="btn_information">Информация</string>
+    <string name="btn_sign_in">Войти</string>
+    <string name="desc_app_icon">Иконка приложения</string>
+    <string name="err_loading_data">Не удается загрузить данные :(</string>
+    <string name="err_service_unavailable">Сервис временно недоступен. Пожалуйста, проверьте настройки сети и попробуйте еще раз</string>
+    <string name="err_sign_in">Ошибка при входе. Проверьте правильность введенных данных</string>
+    <string name="foreground_service_started">Запуск службы...</string>
+    <string name="hint_password">Пароль</string>
+    <string name="label_complete">Завершено</string>
+    <string name="label_incomplete">Не завершено</string>
+    <string name="label_no_name">Без имени</string>
+    <string name="label_paid">Оплачено до</string>
+    <string name="label_unpaid">Не оплачено</string>
+    <string name="login_with_social">Войдите через соцсеть</string>
+    <string name="or_separator">или</string>
+    <string name="text_wait">Пожалуйста, подождите</string>
+    <string name="toast_email_empty">Пожалуйста, введите e-mail</string>
+    <string name="toast_password_empty">Пожалуйста, введите пароль</string>
+    <string name="alert_info">Предпросмотр приложений, созданных с помощью конструктора МО APPS. \n
+Для входа введите логин и пароль от личного кабинета на сайте mo-apps.com</string>
+    <string name="enter_login_and_pass">Введите свой логин и пароль</string>
+    <string name="string_getting_json_message">Получение данных</string>
+</resources>

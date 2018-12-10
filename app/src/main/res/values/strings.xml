@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Mo`apps Previewer</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">E-mail</string>
+    <string name="text_wait">Please, wait</string>
+    <string name="err_loading_data">Could not load data :(</string>
+    <string name="label_complete">Complete</string>
+    <string name="label_incomplete">Incomplete</string>
+    <string name="label_no_name">No name</string>
+    <string name="label_paid">Paid until</string>
+    <string name="label_unpaid">Not paid</string>
+    <string name="desc_app_icon">App icon</string>
+    <string name="search_menu_title">Search</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="action_sign_out">Sign Out</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4328537020911786/4265076557</string>
+    <string name="btn_information">Information</string>
+    <string name="err_service_unavailable">Service is unavailable at the moment. Please, check your network settings and try again</string>
+    <string name="err_sign_in">Could not sign in</string>
+    <string name="foreground_service_started">Service started...</string>
+    <string name="login_with_social">Sign in with social account</string>
+    <string name="or_separator">or</string>
+    <string name="toast_email_empty">Please, enter your e-mail</string>
+    <string name="toast_password_empty">Please, enter your password</string>
+    <string name="alert_info">Preview applications created using MO APPS Designer. \n
+        To log in, enter the username and password from the personal account on the site mo-apps.com</string>
+    <string name="enter_login_and_pass">Enter your login and password</string>
+    <string name="string_getting_json_message">Get informations</string>
+</resources>

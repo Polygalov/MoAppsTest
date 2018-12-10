@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_menu_title">Пошук</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="action_sign_out">Змінити акаунт</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4328537020911786/4265076557</string>
+    <string name="btn_information">Інформація</string>
+    <string name="btn_sign_in">Увійти</string>
+    <string name="desc_app_icon">Іконка додатку</string>
+    <string name="err_loading_data">Не вдається завантажити дані</string>
+    <string name="err_service_unavailable">Сервіс тимчасово недоступний. Будь ласка, перевірте налаштування мережі та спробуйте ще</string>
+    <string name="err_sign_in">Помилка при вході</string>
+    <string name="foreground_service_started">Служба стартує...</string>
+    <string name="hint_password">Пароль</string>
+    <string name="label_complete">Завершене</string>
+    <string name="label_incomplete">Незавершене</string>
+    <string name="label_no_name">Без імені</string>
+    <string name="label_paid">Сплачено до</string>
+    <string name="label_unpaid">Не сплачене</string>
+    <string name="login_with_social">Увійдіть через соціальну мережу</string>
+    <string name="or_separator">або</string>
+    <string name="text_wait">Будь ласка, зачекайте</string>
+    <string name="toast_email_empty">Будь ласка, введіть e-mail</string>
+    <string name="toast_password_empty">Будь ласка, введіть ваш пароль</string>
+    <string name="alert_info">Попередній додатків, створених за допомогою конструктора МО APPS. \n
+Для входу введіть логін і пароль від особистого кабінету на сайті mo-apps.com</string>
+    <string name="enter_login_and_pass">Введіть свій логін та пароль</string>
+    <string name="string_getting_json_message">Отримання данних</string>
+</resources>

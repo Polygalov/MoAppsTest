@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout android:id="@+id/refresh_layout"
+                                              xmlns:android="http://schemas.android.com/apk/res/android"
+                                              xmlns:app="http://schemas.android.com/apk/res-auto"
+                                              android:layout_width="match_parent"
+                                              android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_app_list">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/loading_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <ProgressBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:indeterminate="true"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/text_wait"
+                        android:textColor="@color/white"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_err"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/err_loading_data"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:visibility="gone"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/app_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:paddingBottom="@dimen/list_margin_vertical"
+                    android:paddingLeft="@dimen/list_margin_horizontal"
+                    android:paddingRight="@dimen/list_margin_horizontal"
+                    android:paddingTop="@dimen/list_margin_vertical"
+                    android:scrollbars="none"/>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
